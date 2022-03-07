@@ -20,7 +20,7 @@
 						<img src="assets/images/recurso8.png" alt="" class="img-fluid pt-5">
 						<div class="slider_button-kit d-flex">
 							<div class="button mt-5 pt-5">
-								<a href="kit_digital.php">Más información <i class="fas fa-long-arrow-alt-right"></i></a>
+								<a href="kit_digital.php" id="boton-kit">Más información <i class="fas fa-long-arrow-alt-right"></i></a>
 								<a class="active" href="#">Otros servicios web <i class="fas fa-long-arrow-alt-right"></i></a>
 							</div>
 						</div>

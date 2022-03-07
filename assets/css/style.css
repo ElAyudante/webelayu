@@ -475,6 +475,11 @@ a.dtbtn:hover {
     border-radius: 5px;
     color: #fff;
 }
+
+.button a:hover {
+    background: #213612;
+    transform: scale(1.1);
+}
 .button.color_two a {
     background: #213612;
 }
@@ -489,6 +494,13 @@ a.dtbtn:hover {
     padding: 14px 35px;
     color: #70B53C;
 }
+
+.button.three a:hover {
+    background: #213612;
+    color: #fff;
+    transform: scale(1.1);
+}
+
 .button.style-four a {
     background: transparent;
     padding: 10px 30px;
@@ -503,8 +515,9 @@ a.dtbtn:hover {
     background: #213612;
     margin-left: 25px;
 }
-.button .active:before {
+.button .active:hover {
     background: #70B53C;
+    transform: scale(1.1);
 }
 .button a i {
     margin-left: 5px;
@@ -528,6 +541,8 @@ a.dtbtn:hover {
 .button a:hover:before {
     width: 180%;
 }
+
+
 .slider12 .button a i {
     font-size: 14px;
 }
